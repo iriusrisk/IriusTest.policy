@@ -1,0 +1,1 @@
+var index = {"Tags":{"Comma separated list of tags":["threatmodel/Component Name/threat_short_name.html"],"Standard PCI-DSSv3.2 1.1":["threatmodel/Component Name/threat_short_name.html"]},"Specs":{"Threat: Name of the threat goes here":["threatmodel/Component Name/threat_short_name.html"]}};
