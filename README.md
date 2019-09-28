@@ -5,15 +5,15 @@ A Threat Model as Code framework that uses the [Gauge](https://gauge.org) BDD fr
 
 ## Example: Laptop screen policy
 Write a security policy requirement as a Threat + Countermeasure that describes the problem and the control:
-[spec-example.png]
+![](spec-example.png)
 This is written in plain markdown and can include any markdown elements.  Example in threatmodel/laptop/ directory.
 
 ## Test
 Then use an unnumbered list to define test steps.  Each of these test steps will map to a python function:
-[test-example.png]
+![](test-example.png)
 
 The first two test steps are synthetic, in that the python code does nothing.  The final step maps to a function that checks whether the last checked date is within the expiration time:
-[param-test.png]
+![](param-test.png)
 
 Since it isn't, the test fails.
 
